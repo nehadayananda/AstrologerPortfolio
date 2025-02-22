@@ -71,29 +71,8 @@ body {
   opacity: 0.6;
 }
 
-.planet1 {
-  width: 150px;
-  height: 150px;
-  background: linear-gradient(145deg, var(--primary-color), var(--secondary-color));
-  animation: planetMove1 80s linear infinite;
-  top: 20%;
-}
 
-.planet2 {
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(145deg, var(--secondary-color), var(--primary-color));
-  animation: planetMove2 120s linear infinite;
-  top: 60%;
-}
 
-.planet3 {
-  width: 80px;
-  height: 80px;
-  background: linear-gradient(145deg, var(--primary-color), var(--secondary-color));
-  animation: planetMove3 95s linear infinite;
-  top: 40%;
-}
 
 @keyframes planetMove1 {
   from { transform: translateX(-150px) rotate(0deg); }
